@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 
 function Insert() {
   const [work, setWork] = useState('');
+  const [showWork, setShowWork] = useState(false);
   const finish = 0;
 
   const handelSubmit = async (event) =>{
