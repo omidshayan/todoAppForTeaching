@@ -1,0 +1,29 @@
+.main{
+    width: 60%;
+    margin: 20px auto;
+    color: aliceblue;
+}
+input{
+    color: #020a11 !important;
+}
+.myBtn{
+    width: 100%;
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: #0B5ED7;
+    border: none;
+    padding: 7px;
+    border-radius: 4px;
+    color: white !important;
+    transition: 0.3s;
+}
+.myBtn:hover{
+    width: 100%;
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: #0348af;
+    border: none;
+    padding: 7px;
+    border-radius: 4px;
+    color: white !important;
+}

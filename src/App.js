@@ -1,17 +1,12 @@
 import "./App.css";
-import {Stack, Button} from "react-bootstrap";
+import Home from "./components/home/Home";
 
 function App() {
   return (
     <>
-<Stack direction="horizontal" gap={2}>
-  <Button as="a" variant="primary">
-    Button as link
-  </Button>
-  <Button as="a" variant="success">
-    Button as link
-  </Button>
-</Stack>;
+      <div className="main">
+        <Home />
+      </div>
     </>
   );
 }
