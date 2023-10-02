@@ -8,6 +8,7 @@ import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 
 import './show.css';
+import Mui from '../mui/Mui';
 
 
 function Show() {
@@ -53,6 +54,9 @@ function Show() {
     <>
     <div className="show">
         <h4>نمایش کارها</h4>
+        <div>
+          <Mui />
+        </div>
         <hr />
         <Table striped bordered hover variant="dark">
       <thead>
